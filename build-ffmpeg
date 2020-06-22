@@ -417,7 +417,6 @@ cd "$PACKAGES"/ffmpeg-192d1d3/ || exit
 	--enable-libopencore_amrnb \
 	--enable-filters \
 	--enable-libvidstab \
-#	--enable-libaom
         --disable-libaom
 
 execute make -j $MJOBS
